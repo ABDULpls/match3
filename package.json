@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "pixi.js-legacy": "^5.3.3",
+    "vuex": "^3.6.2"
+  }
+}
