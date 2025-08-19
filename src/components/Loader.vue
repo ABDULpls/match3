@@ -2,22 +2,22 @@
     <div class="container field-play">
         <span class="text-play">{{ text }}</span>
 
-        <figure class="hold-icon sticky-icon">
-            <img src="/images/icon01.png" width="46" height="63" alt="image" class="animate-rotate">
-        </figure>
+<!--        <figure class="hold-icon sticky-icon">-->
+<!--            <img src="/images/icon01.png" width="46" height="63" alt="image" class="animate-rotate">-->
+<!--        </figure>-->
     </div>
 </template>
 
-<script>
-    export default {
-        name: 'Loader',
+<script lang="ts">
+import { defineComponent } from 'vue';
 
-        props: {
-            text: {
-                type: String,
-                default: 'Game loading...',
-            }
-        },
-
-    }
+export default defineComponent({
+  name: 'GameLoader',
+  props: {
+    text: {
+      type: String,
+      default: 'Game loading...',
+    },
+  },
+});
 </script>

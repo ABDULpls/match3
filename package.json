@@ -1,6 +1,30 @@
 {
+  "name": "match3",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
   "dependencies": {
-    "pixi.js-legacy": "^5.3.3",
-    "vuex": "^3.6.2"
+    "@pixi/sound": "^5.0.0",
+    "@pixi/text-bitmap": "^7.4.3",
+    "lodash": "^4.17.21",
+    "pixi.js": "^8.0.0",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.20",
+    "@types/node": "^24.2.1",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "happy-dom": "^15.11.7",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.0",
+    "vitest": "^2.1.9",
+    "vue-tsc": "^2.2.12"
   }
 }
